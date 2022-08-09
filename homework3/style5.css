@@ -1,0 +1,84 @@
+body{
+    /*background-size: cover;*/
+    /*height: 100vh;*/
+    background: #8C8C8C;
+    margin: 0 auto;
+    text-align: center;
+}
+
+.container{
+    width: 1120px;
+    margin: 0 auto;
+    text-align: center;
+}
+
+h1{
+    animation-delay: 2s;
+    animation-duration: 3s;
+    animation-name: slidein;
+    color: black;
+    display: inline-block;
+    margin-top: 100px;
+    transform:scale(3);
+}
+
+#name{
+    background: #E0C195;
+    border: none;
+    border-radius: 20px;
+    width: 400px;
+    height: 100px;
+    margin-top: 30px;
+}
+
+#name:hover{
+    transform: scale(1.1);
+}
+
+#btn {
+    border-radius: 20px;
+    width: 100px;
+    border: none;
+    background: #161B22;
+    color: #ffffff;
+    height: 40px;
+    margin-left: 30px;
+        font-weight: bold;
+
+}
+
+#reset {
+    margin-left: 20px;
+    color: #ffffff;
+    font-weight: bold;
+    background: #161B22;
+    border-radius: 20px;
+    border: none;
+    width: 100px;
+    height: 40px;
+}
+
+.input{
+    justify-content: space-between;
+}
+#reset:hover{
+    transform: scale(1.25);
+}
+#btn:hover{
+    transform: scale(1.25);
+
+}
+/*#name:before{*/
+/*    background: (90deg,#EDA54A 30%,#E0C195 10% );*/
+
+/*}*/
+
+h2:hover{
+    transition-delay: inherit;
+}
+
+/*.div. h2   {*/
+/*    background: #fff;*/
+/*    width: 200px;*/
+/*    height: 100px;*/
+/*}*/
